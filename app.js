@@ -736,5 +736,4 @@
   bindSkillNotes();
   bindPosts();
 })();
-
-
+// first commit
