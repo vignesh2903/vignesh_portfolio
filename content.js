@@ -182,6 +182,7 @@ const SITE = {
       items: [
         {
           mark: "VIT",
+          image: "assets/logos/vit.jpg",
           title: "B.Tech, Electronics and Communication Engineering",
           href: "https://chennai.vit.ac.in/",
           meta: "Jun 2019 — Aug 2023",
@@ -190,6 +191,7 @@ const SITE = {
         },
         {
           mark: "MVM",
+          image: "assets/logos/mvm.png",
           title: "12th Standard, CBSE — Computer Science",
           href: "",
           meta: "Jul 2017 — May 2019",
@@ -208,37 +210,37 @@ const SITE = {
         {
           label: "Backend, APIs & Streaming",
           items: [
-            { name: "Java", icon: "" },
-            { name: "Spring Boot", icon: "" },
-            { name: "REST APIs", icon: "" },
-            { name: "Kafka", icon: "" },
+            { name: "Java", icon: "assets/logos/skills/java.png" },
+            { name: "Spring Boot", icon: "assets/logos/skills/spring.png" },
+            { name: "REST APIs", icon: "assets/logos/skills/rest.png" },
+            { name: "Kafka", icon: "assets/logos/skills/kafka_1.png" },
           ],
         },
         {
           label: "Databases & Search",
           items: [
-            { name: "SQL", icon: "" },
-            { name: "Cassandra", icon: "" },
-            { name: "Elasticsearch", icon: "" },
+            { name: "SQL", icon: "assets/logos/skills/sql.png" },
+            { name: "Cassandra", icon: "assets/logos/skills/cassandra.png" },
+            { name: "Elasticsearch", icon: "assets/logos/skills/es.svg" },
           ],
         },
         {
           label: "Tools",
           items: [
-            { name: "Docker", icon: "" },
-            { name: "Kubernetes", icon: "" },
-            { name: "Maven", icon: "" },
-            { name: "JUnit", icon: "" },
+            { name: "Docker", icon: "assets/logos/skills/docker-icon.webp" },
+            { name: "Kubernetes", icon: "assets/logos/skills/kubectl.webp" },
+            { name: "Maven", icon: "assets/logos/skills/maven.webp" },
+            { name: "JUnit", icon: "assets/logos/skills/junit.svg" },
           ],
         },
         {
           label: "AI / Data Science",
           items: [
-            { name: "Python", icon: "" },
-            { name: "Machine Learning", icon: "" },
-            { name: "CNN", icon: "" },
-            { name: "GenAI", icon: "" },
-            { name: "LLMs", icon: "" },
+            { name: "Python", icon: "assets/logos/skills/py.webp" },
+            { name: "Machine Learning", icon: "assets/logos/skills/ML.png" },
+            { name: "CNN", icon: "assets/logos/skills/CNN.png" },
+            { name: "GenAI", icon: "assets/logos/skills/genai.webp" },
+            { name: "LLMs", icon: "assets/logos/skills/LLM.png" },
           ],
         },
       ],
@@ -253,10 +255,10 @@ const SITE = {
         {
           label: "Spoken",
           items: [
-            { name: "English", icon: "", note: "Professional working proficiency. Placeholder note — replace with your own." },
-            { name: "Tamil", icon: "", note: "Native fluency. Placeholder note — replace with your own." },
-            { name: "Telugu", icon: "", note: "Conversational. Placeholder note — replace with your own." },
-            { name: "Hindi", icon: "", note: "Conversational. Placeholder note — replace with your own." },
+            { name: "English", icon: "", note: "Professional working proficiency. An advanced C1-level with IELTS score of 7.5 overall" },
+            { name: "Tamil", icon: "", note: "Native fluency. Fluent in Tamil, can read, write, and speak fluently." },
+            { name: "Telugu", icon: "", note: "Native fluency. My native language." },
+            { name: "Hindi", icon: "", note: "Conversational. Basic level of proficiency." },
           ],
         },
       ],
@@ -275,7 +277,7 @@ const SITE = {
             "Brain signals as a future authentication tool. Built a benchmark deep learning model so later EEG researchers can implement applications with less setup. Guided by Dr. Garima Bajwa at Lakehead University.",
           tags: ["Deep Learning", "EEG", "Cybersecurity"],
           href: "",
-          image: "",
+          image: "assets/logos/eeg.jpg",
           github: "",
         },
         {
